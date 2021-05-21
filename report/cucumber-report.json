@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-20T11:43:08.269Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1862000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User goes to the register page",
+        "description": "",
+        "id": "register-and-login-for-insurance;user-goes-to-the-register-page",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1334000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open GuruInsurance page",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.openGuruInsurancePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 483000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks register button",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userClicksRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should sees \"Title\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Title\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.guru.insurance.GuruInsuranceStep.userShouldSees(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T11:43:12.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 705000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User fills registration form",
+        "description": "",
+        "id": "register-and-login-for-insurance;user-fills-registration-form",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1314000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open GuruInsurance page",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.openGuruInsurancePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks register button",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userClicksRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1865000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User fills registration form",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userFillsRegistrationForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should sees \"Log in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Log in\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.guru.insurance.GuruInsuranceStep.userShouldSees(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-20T11:43:16.592Z",
+        "before": [
+          {
+            "result": {
+              "duration": 882000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User logs in successfully",
+        "description": "",
+        "id": "register-and-login-for-insurance;user-logs-in-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1480000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open GuruInsurance page",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.openGuruInsurancePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 530000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks register button",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userClicksRegister()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2214000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fills registration form",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userFillsRegistrationForm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2219000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User logs in",
+            "match": {
+              "location": "com.guru.insurance.GuruInsuranceStep.userLogsIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User should sees \"Broker Insurance WebPage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Broker Insurance WebPage\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.guru.insurance.GuruInsuranceStep.userShouldSees(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register and Login for Insurance",
+    "description": "  GuruInsurance is a page where the user can register and login to see the insurance",
+    "id": "register-and-login-for-insurance",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GuruInsurance.feature",
+    "tags": []
+  }
+]

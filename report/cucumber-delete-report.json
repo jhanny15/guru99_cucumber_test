@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T15:23:49.994Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1560000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Click Create Course",
+        "description": "",
+        "id": "become-an-instructor;click-create-course",
+        "after": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Open GuruAutoIt page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User clicks Create Course",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User sees \"3 steps\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Become an Instructor",
+    "description": "  GuruAutoIt is a page where the user can apply to be an instructor",
+    "id": "become-an-instructor",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GuruAutoit.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T15:23:51.800Z",
+        "before": [
+          {
+            "result": {
+              "duration": 625000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "User submits Customer",
+        "description": "",
+        "id": "delete-a-customer;user-submits-customer",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1168000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open GuruDelete page",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.openGuruDeletePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 122000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User types \"prova\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prova\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.guru.delete.GuruDeleteStep.userTypes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userClicksSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees confirm button",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userSeesConfirm()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T15:23:53.893Z",
+        "before": [
+          {
+            "result": {
+              "duration": 604000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "User deletes Customer",
+        "description": "",
+        "id": "delete-a-customer;user-deletes-customer",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1041000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open GuruDelete page",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.openGuruDeletePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 182000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User types \"prova\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"prova\"",
+                  "offset": 11
+                }
+              ],
+              "location": "com.guru.delete.GuruDeleteStep.userTypes(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks submit button",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userClicksSubmit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sees confirm button",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userSeesConfirm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks confirm",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userClicksConfirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User sees success alert",
+            "match": {
+              "location": "com.guru.delete.GuruDeleteStep.userSeesSuccess()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete a customer",
+    "description": "  GuruDelete is a page where the user can delete a customer\u0027s name.",
+    "id": "delete-a-customer",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GuruDelete.feature",
+    "tags": []
+  }
+]
